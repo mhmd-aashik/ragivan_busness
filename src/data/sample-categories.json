@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "name": "Keyboards",
+    "slug": "keyboards",
+    "image": "/assets/images/carocel3.jpg",
+    "description": "Mechanical and gaming keyboards for professionals and gamers",
+    "productCount": 2
+  },
+  {
+    "id": "2",
+    "name": "Mice",
+    "slug": "mice",
+    "image": "/assets/images/carocel2.jpg",
+    "description": "Gaming and office mice with precision sensors",
+    "productCount": 2
+  },
+  {
+    "id": "3",
+    "name": "Audio",
+    "slug": "audio",
+    "image": "/assets/images/carocel1.jpg",
+    "description": "Gaming headsets and audio equipment",
+    "productCount": 2
+  },
+  {
+    "id": "4",
+    "name": "Monitors",
+    "slug": "monitors",
+    "image": "/assets/images/carocel2.jpg",
+    "description": "Gaming and professional monitors",
+    "productCount": 2
+  },
+  {
+    "id": "5",
+    "name": "Graphics Cards",
+    "slug": "graphics-cards",
+    "image": "/assets/images/carocel1.jpg",
+    "description": "High-performance graphics cards for gaming and work",
+    "productCount": 0
+  },
+  {
+    "id": "6",
+    "name": "Laptops",
+    "slug": "laptops",
+    "image": "/assets/images/carocel3.jpg",
+    "description": "Gaming and professional laptops",
+    "productCount": 0
+  },
+  {
+    "id": "7",
+    "name": "Accessories",
+    "slug": "accessories",
+    "image": "/assets/images/carocel1.jpg",
+    "description": "Gaming accessories and peripherals",
+    "productCount": 0
+  }
+]

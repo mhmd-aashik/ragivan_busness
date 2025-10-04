@@ -1,0 +1,254 @@
+[
+  {
+    "id": "1",
+    "name": "Fantech K511 Hunter Pro RGB Mechanical Keyboard",
+    "price": 18500,
+    "rating": 4.8,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Keyboards",
+    "originalPrice": 22500,
+    "discount": 18,
+    "reviewCount": 124,
+    "isNew": true,
+    "isBestSeller": true,
+    "featured": true,
+    "features": ["RGB Backlight", "Mechanical Switches", "Gaming Mode"],
+    "description": "The Fantech K511 Hunter Pro is a premium mechanical gaming keyboard featuring customizable RGB lighting, tactile mechanical switches, and advanced gaming features. Perfect for both gaming and professional use with its durable construction and responsive key switches.",
+    "specifications": {
+      "Switch Type": "Mechanical Blue Switches",
+      "Backlight": "RGB Per-Key Lighting",
+      "Connectivity": "USB-C Wired",
+      "Dimensions": "440 x 130 x 35mm",
+      "Weight": "1.2kg",
+      "Compatibility": "Windows, Mac, Linux"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "user": "GamerPro123",
+        "rating": 5,
+        "comment": "Amazing keyboard! The RGB lighting is incredible and the mechanical switches feel perfect for gaming.",
+        "date": "2024-01-15",
+        "verified": true
+      },
+      {
+        "id": 2,
+        "user": "TechEnthusiast",
+        "rating": 4,
+        "comment": "Great build quality and responsive keys. The only downside is the software could be better.",
+        "date": "2024-01-10",
+        "verified": true
+      }
+    ],
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "2",
+    "name": "Razer DeathAdder V3 Pro Wireless Gaming Mouse",
+    "price": 12500,
+    "rating": 4.9,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Mice",
+    "originalPrice": 15500,
+    "discount": 19,
+    "reviewCount": 89,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "features": ["Wireless", "30K DPI", "90hr Battery"],
+    "description": "The Razer DeathAdder V3 Pro is the ultimate wireless gaming mouse with industry-leading 30K DPI sensor, 90-hour battery life, and ergonomic design. Built for professional esports and competitive gaming.",
+    "specifications": {
+      "Sensor": "Focus Pro 30K DPI",
+      "Battery Life": "90 hours",
+      "Connectivity": "Wireless 2.4GHz + Bluetooth",
+      "Weight": "63g",
+      "Buttons": "5 Programmable",
+      "DPI Range": "100-30000"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "user": "ProGamer",
+        "rating": 5,
+        "comment": "Best gaming mouse I've ever used. The sensor is incredibly accurate and the battery life is amazing.",
+        "date": "2024-01-12",
+        "verified": true
+      }
+    ],
+    "createdAt": "2024-01-02T00:00:00.000Z"
+  },
+  {
+    "id": "3",
+    "name": "SteelSeries Arctis 7P+ Wireless Gaming Headset",
+    "price": 22000,
+    "rating": 4.7,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Audio",
+    "originalPrice": 27500,
+    "discount": 20,
+    "reviewCount": 156,
+    "isNew": true,
+    "isBestSeller": false,
+    "featured": true,
+    "features": ["Wireless", "3D Audio", "30hr Battery"],
+    "description": "The SteelSeries Arctis 7P+ delivers premium wireless audio with 3D spatial sound, 30-hour battery life, and comfortable design. Perfect for gaming and entertainment with crystal-clear voice chat and immersive audio experience.",
+    "specifications": {
+      "Driver Size": "40mm",
+      "Frequency Response": "20-20000 Hz",
+      "Connectivity": "Wireless 2.4GHz + Bluetooth",
+      "Battery Life": "30 hours",
+      "Microphone": "Retractable Noise-Cancelling",
+      "Compatibility": "PC, PlayStation, Mobile"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "user": "AudioGamer",
+        "rating": 5,
+        "comment": "Incredible sound quality and comfort. The 3D audio is amazing for gaming.",
+        "date": "2024-01-14",
+        "verified": true
+      }
+    ],
+    "createdAt": "2024-01-03T00:00:00.000Z"
+  },
+  {
+    "id": "4",
+    "name": "ASUS ROG Strix XG27AQ 27\" 4K Gaming Monitor",
+    "price": 45000,
+    "rating": 4.6,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Monitors",
+    "originalPrice": 55000,
+    "discount": 18,
+    "reviewCount": 67,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "features": ["4K UHD", "144Hz", "HDR10"],
+    "description": "The ASUS ROG Strix XG27AQ delivers stunning 4K UHD visuals with 144Hz refresh rate and HDR10 support. Perfect for gaming and professional work with its color-accurate display and fast response times.",
+    "specifications": {
+      "Screen Size": "27 inches",
+      "Resolution": "3840 x 2160 (4K UHD)",
+      "Refresh Rate": "144Hz",
+      "Response Time": "1ms",
+      "Panel Type": "IPS",
+      "HDR": "HDR10 Support"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "user": "MonitorExpert",
+        "rating": 5,
+        "comment": "Amazing 4K monitor with great color accuracy and smooth gaming performance.",
+        "date": "2024-01-11",
+        "verified": true
+      }
+    ],
+    "createdAt": "2024-01-04T00:00:00.000Z"
+  },
+  {
+    "id": "5",
+    "name": "Corsair K70 RGB MK.2 Mechanical Gaming Keyboard",
+    "price": 16500,
+    "rating": 4.8,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Keyboards",
+    "originalPrice": 19500,
+    "discount": 15,
+    "reviewCount": 203,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": ["Cherry MX", "RGB", "Aluminum Frame"],
+    "description": "Premium mechanical gaming keyboard with Cherry MX switches, per-key RGB lighting, and aircraft-grade aluminum frame for durability and performance.",
+    "specifications": {
+      "Switch Type": "Cherry MX Red",
+      "Backlight": "Per-Key RGB",
+      "Frame": "Aircraft-Grade Aluminum",
+      "Connectivity": "USB",
+      "Dimensions": "456 x 170 x 40mm",
+      "Weight": "1.3kg"
+    },
+    "reviews": [],
+    "createdAt": "2024-01-05T00:00:00.000Z"
+  },
+  {
+    "id": "6",
+    "name": "Logitech G Pro X Superlight Wireless Mouse",
+    "price": 13500,
+    "rating": 4.9,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Mice",
+    "originalPrice": 16500,
+    "discount": 18,
+    "reviewCount": 178,
+    "isNew": true,
+    "isBestSeller": true,
+    "featured": true,
+    "features": ["Ultra Light", "Wireless", "Hero Sensor"],
+    "description": "Ultra-lightweight wireless gaming mouse with Hero sensor technology, designed for professional esports and competitive gaming.",
+    "specifications": {
+      "Sensor": "Hero 25K",
+      "Weight": "63g",
+      "Connectivity": "Wireless 2.4GHz",
+      "Battery Life": "70 hours",
+      "DPI Range": "100-25600",
+      "Buttons": "5 Programmable"
+    },
+    "reviews": [],
+    "createdAt": "2024-01-06T00:00:00.000Z"
+  },
+  {
+    "id": "7",
+    "name": "HyperX Cloud Alpha S Gaming Headset",
+    "price": 8500,
+    "rating": 4.5,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Audio",
+    "originalPrice": 10500,
+    "discount": 19,
+    "reviewCount": 92,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": ["7.1 Surround", "Detachable Mic", "Memory Foam"],
+    "description": "Gaming headset with 7.1 surround sound, detachable noise-cancelling microphone, and memory foam ear cushions for comfort.",
+    "specifications": {
+      "Driver Size": "50mm",
+      "Frequency Response": "13-27000 Hz",
+      "Connectivity": "3.5mm + USB",
+      "Microphone": "Detachable Noise-Cancelling",
+      "Cable Length": "1m + 2m Extension",
+      "Weight": "320g"
+    },
+    "reviews": [],
+    "createdAt": "2024-01-07T00:00:00.000Z"
+  },
+  {
+    "id": "8",
+    "name": "Samsung Odyssey G7 32\" QHD Gaming Monitor",
+    "price": 38000,
+    "rating": 4.7,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Monitors",
+    "originalPrice": 45000,
+    "discount": 16,
+    "reviewCount": 134,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "features": ["QHD", "240Hz", "Curved Display"],
+    "description": "Curved QHD gaming monitor with 240Hz refresh rate, 1ms response time, and HDR support for immersive gaming experience.",
+    "specifications": {
+      "Screen Size": "32 inches",
+      "Resolution": "2560 x 1440 (QHD)",
+      "Refresh Rate": "240Hz",
+      "Response Time": "1ms",
+      "Panel Type": "VA",
+      "Curvature": "1000R"
+    },
+    "reviews": [],
+    "createdAt": "2024-01-08T00:00:00.000Z"
+  }
+]

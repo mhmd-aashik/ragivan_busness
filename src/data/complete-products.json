@@ -1,0 +1,3531 @@
+[
+  {
+    "id": "1",
+    "name": "Filco Keyboards 697",
+    "price": 3758,
+    "rating": 4,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Keyboards",
+    "brand": "Filco",
+    "originalPrice": 4818,
+    "discount": 22,
+    "reviewCount": 147,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": false,
+    "features": [
+      "RGB Backlight",
+      "Mechanical Switches",
+      "Wireless"
+    ],
+    "description": "High-quality keyboard designed for productivity and gaming with advanced features and premium build quality.",
+    "specifications": {
+      "Switch Type": "Cherry MX Blue",
+      "Connectivity": "Bluetooth",
+      "Backlight": "RGB"
+    },
+    "reviews": [],
+    "createdAt": "2025-02-09T19:21:28.202Z",
+    "tags": [
+      "keyboards",
+      "filco",
+      "wireless",
+      "high-quality",
+      "professional"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "2",
+    "name": "Varmilo Keyboards 432",
+    "price": 36366,
+    "rating": 3.5,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Keyboards",
+    "brand": "Varmilo",
+    "originalPrice": 39963,
+    "discount": 9,
+    "reviewCount": 60,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": false,
+    "features": [
+      "RGB Backlight",
+      "Mechanical Switches",
+      "Wireless"
+    ],
+    "description": "High-quality keyboard designed for productivity and gaming with advanced features and premium build quality.",
+    "specifications": {
+      "Switch Type": "Cherry MX Blue",
+      "Connectivity": "Bluetooth",
+      "Backlight": "None"
+    },
+    "reviews": [],
+    "createdAt": "2025-04-19T06:33:45.434Z",
+    "tags": [
+      "keyboards",
+      "varmilo",
+      "rgb"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "3",
+    "name": "Logitech Keyboards 1006",
+    "price": 29922,
+    "rating": 4.4,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Keyboards",
+    "brand": "Logitech",
+    "originalPrice": 37876,
+    "discount": 21,
+    "reviewCount": 505,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": true,
+    "features": [
+      "RGB Backlight",
+      "Mechanical Switches"
+    ],
+    "description": "High-quality keyboard designed for productivity and gaming with advanced features and premium build quality.",
+    "specifications": {
+      "Switch Type": "Gateron Red",
+      "Connectivity": "Bluetooth",
+      "Backlight": "Single Color"
+    },
+    "reviews": [],
+    "createdAt": "2025-04-08T18:04:28.808Z",
+    "tags": [
+      "keyboards",
+      "logitech",
+      "gaming",
+      "professional"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "4",
+    "name": "Keychron Keyboards 907",
+    "price": 2448,
+    "rating": 4.8,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Keyboards",
+    "brand": "Keychron",
+    "originalPrice": 3061,
+    "discount": 20,
+    "reviewCount": 397,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "features": [
+      "RGB Backlight",
+      "Mechanical Switches",
+      "Wireless",
+      "Gaming Mode"
+    ],
+    "description": "High-quality keyboard designed for productivity and gaming with advanced features and premium build quality.",
+    "specifications": {
+      "Switch Type": "Gateron Red",
+      "Connectivity": "USB",
+      "Backlight": "RGB"
+    },
+    "reviews": [],
+    "createdAt": "2025-09-09T20:31:52.702Z",
+    "tags": [
+      "keyboards",
+      "keychron",
+      "wireless"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "5",
+    "name": "Ducky Keyboards 847",
+    "price": 6435,
+    "rating": 4.7,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Keyboards",
+    "brand": "Ducky",
+    "originalPrice": 9464,
+    "discount": 32,
+    "reviewCount": 373,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "RGB Backlight",
+      "Mechanical Switches",
+      "Wireless",
+      "Gaming Mode"
+    ],
+    "description": "High-quality keyboard designed for productivity and gaming with advanced features and premium build quality.",
+    "specifications": {
+      "Switch Type": "Gateron Red",
+      "Connectivity": "Bluetooth",
+      "Backlight": "Single Color"
+    },
+    "reviews": [],
+    "createdAt": "2025-06-22T04:43:50.340Z",
+    "tags": [
+      "keyboards",
+      "ducky",
+      "gaming",
+      "high-quality"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "6",
+    "name": "Pulsar Mice 888",
+    "price": 6136,
+    "rating": 3.9,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Mice",
+    "brand": "Pulsar",
+    "originalPrice": 7483,
+    "discount": 18,
+    "reviewCount": 377,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "Wireless",
+      "High DPI"
+    ],
+    "description": "Precision gaming mouse with advanced sensor technology and ergonomic design for optimal performance.",
+    "specifications": {
+      "Sensor": "PixArt PAW3370",
+      "DPI Range": "100-16000",
+      "Connectivity": "Wireless 2.4GHz"
+    },
+    "reviews": [],
+    "createdAt": "2025-06-14T17:10:39.590Z",
+    "tags": [
+      "mice",
+      "pulsar",
+      "professional"
+    ],
+    "availability": "in-stock",
+    "shipping": "paid"
+  },
+  {
+    "id": "7",
+    "name": "Zowie Mice 804",
+    "price": 24027,
+    "rating": 4,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Mice",
+    "brand": "Zowie",
+    "originalPrice": 33842,
+    "discount": 29,
+    "reviewCount": 80,
+    "isNew": true,
+    "isBestSeller": true,
+    "featured": false,
+    "features": [
+      "Wireless",
+      "High DPI",
+      "RGB Lighting",
+      "Ergonomic"
+    ],
+    "description": "Precision gaming mouse with advanced sensor technology and ergonomic design for optimal performance.",
+    "specifications": {
+      "Sensor": "Hero 25K",
+      "DPI Range": "100-16000",
+      "Connectivity": "USB"
+    },
+    "reviews": [],
+    "createdAt": "2025-07-31T05:13:24.118Z",
+    "tags": [
+      "mice",
+      "zowie",
+      "wireless"
+    ],
+    "availability": "in-stock",
+    "shipping": "paid"
+  },
+  {
+    "id": "8",
+    "name": "Roccat Mice 769",
+    "price": 3593,
+    "rating": 4.2,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Mice",
+    "brand": "Roccat",
+    "originalPrice": 4278,
+    "discount": 16,
+    "reviewCount": 132,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "features": [
+      "Wireless",
+      "High DPI",
+      "RGB Lighting",
+      "Ergonomic",
+      "Gaming"
+    ],
+    "description": "Precision gaming mouse with advanced sensor technology and ergonomic design for optimal performance.",
+    "specifications": {
+      "Sensor": "Focus Pro 30K",
+      "DPI Range": "100-16000",
+      "Connectivity": "Wireless 2.4GHz"
+    },
+    "reviews": [],
+    "createdAt": "2025-01-28T11:04:34.325Z",
+    "tags": [
+      "mice",
+      "roccat",
+      "gaming"
+    ],
+    "availability": "in-stock",
+    "shipping": "paid"
+  },
+  {
+    "id": "9",
+    "name": "Glorious Mice 596",
+    "price": 16335,
+    "rating": 3.9,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Mice",
+    "brand": "Glorious",
+    "originalPrice": 23336,
+    "discount": 30,
+    "reviewCount": 68,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": true,
+    "features": [
+      "Wireless",
+      "High DPI",
+      "RGB Lighting"
+    ],
+    "description": "Precision gaming mouse with advanced sensor technology and ergonomic design for optimal performance.",
+    "specifications": {
+      "Sensor": "Hero 25K",
+      "DPI Range": "100-16000",
+      "Connectivity": "Wireless 2.4GHz"
+    },
+    "reviews": [],
+    "createdAt": "2025-03-06T21:11:43.850Z",
+    "tags": [
+      "mice",
+      "glorious",
+      "premium",
+      "rgb",
+      "professional"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "10",
+    "name": "SteelSeries Mice 828",
+    "price": 6909,
+    "rating": 4.3,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Mice",
+    "brand": "SteelSeries",
+    "originalPrice": 9731,
+    "discount": 29,
+    "reviewCount": 345,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "Wireless",
+      "High DPI",
+      "RGB Lighting",
+      "Ergonomic"
+    ],
+    "description": "Precision gaming mouse with advanced sensor technology and ergonomic design for optimal performance.",
+    "specifications": {
+      "Sensor": "Focus Pro 30K",
+      "DPI Range": "100-16000",
+      "Connectivity": "Wireless 2.4GHz"
+    },
+    "reviews": [],
+    "createdAt": "2024-11-12T16:14:13.940Z",
+    "tags": [
+      "mice",
+      "steelseries",
+      "rgb"
+    ],
+    "availability": "in-stock",
+    "shipping": "paid"
+  },
+  {
+    "id": "11",
+    "name": "SteelSeries Mice 949",
+    "price": 28464,
+    "rating": 4.4,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Mice",
+    "brand": "SteelSeries",
+    "originalPrice": 35580,
+    "discount": 20,
+    "reviewCount": 495,
+    "isNew": true,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "Wireless",
+      "High DPI",
+      "RGB Lighting"
+    ],
+    "description": "Precision gaming mouse with advanced sensor technology and ergonomic design for optimal performance.",
+    "specifications": {
+      "Sensor": "Focus Pro 30K",
+      "DPI Range": "100-16000",
+      "Connectivity": "Wireless 2.4GHz"
+    },
+    "reviews": [],
+    "createdAt": "2024-11-22T03:57:38.330Z",
+    "tags": [
+      "mice",
+      "steelseries",
+      "premium",
+      "professional"
+    ],
+    "availability": "out-of-stock",
+    "shipping": "paid"
+  },
+  {
+    "id": "12",
+    "name": "Bose Audio 823",
+    "price": 36599,
+    "rating": 4.6,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Audio",
+    "brand": "Bose",
+    "originalPrice": 46922,
+    "discount": 22,
+    "reviewCount": 428,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "Wireless",
+      "Noise Cancelling"
+    ],
+    "description": "Premium audio equipment delivering exceptional sound quality and comfort for extended use.",
+    "specifications": {
+      "Driver Size": "50mm",
+      "Frequency Response": "20-20000 Hz",
+      "Connectivity": "Wired"
+    },
+    "reviews": [],
+    "createdAt": "2025-06-13T00:29:54.143Z",
+    "tags": [
+      "audio",
+      "bose",
+      "high-quality",
+      "gaming",
+      "premium"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "13",
+    "name": "Bose Audio 954",
+    "price": 13028,
+    "rating": 4.6,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Audio",
+    "brand": "Bose",
+    "originalPrice": 14476,
+    "discount": 10,
+    "reviewCount": 60,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "features": [
+      "Wireless",
+      "Noise Cancelling",
+      "Surround Sound"
+    ],
+    "description": "Premium audio equipment delivering exceptional sound quality and comfort for extended use.",
+    "specifications": {
+      "Driver Size": "40mm",
+      "Frequency Response": "20-20000 Hz",
+      "Connectivity": "Bluetooth"
+    },
+    "reviews": [],
+    "createdAt": "2025-09-29T13:43:24.699Z",
+    "tags": [
+      "audio",
+      "bose",
+      "rgb"
+    ],
+    "availability": "out-of-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "14",
+    "name": "Audio-Technica Audio 543",
+    "price": 26222,
+    "rating": 4.2,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Audio",
+    "brand": "Audio-Technica",
+    "originalPrice": 31593,
+    "discount": 17,
+    "reviewCount": 299,
+    "isNew": true,
+    "isBestSeller": false,
+    "featured": true,
+    "features": [
+      "Wireless",
+      "Noise Cancelling",
+      "Surround Sound"
+    ],
+    "description": "Premium audio equipment delivering exceptional sound quality and comfort for extended use.",
+    "specifications": {
+      "Driver Size": "40mm",
+      "Frequency Response": "20-20000 Hz",
+      "Connectivity": "Bluetooth"
+    },
+    "reviews": [],
+    "createdAt": "2025-05-01T08:36:58.541Z",
+    "tags": [
+      "audio",
+      "audio-technica",
+      "professional",
+      "premium"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "15",
+    "name": "Bose Audio 889",
+    "price": 31485,
+    "rating": 4.7,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Audio",
+    "brand": "Bose",
+    "originalPrice": 46994,
+    "discount": 33,
+    "reviewCount": 37,
+    "isNew": true,
+    "isBestSeller": false,
+    "featured": true,
+    "features": [
+      "Wireless",
+      "Noise Cancelling",
+      "Surround Sound",
+      "Studio Quality",
+      "Gaming"
+    ],
+    "description": "Premium audio equipment delivering exceptional sound quality and comfort for extended use.",
+    "specifications": {
+      "Driver Size": "45mm",
+      "Frequency Response": "20-20000 Hz",
+      "Connectivity": "Bluetooth"
+    },
+    "reviews": [],
+    "createdAt": "2025-01-06T16:31:19.622Z",
+    "tags": [
+      "audio",
+      "bose",
+      "rgb",
+      "gaming"
+    ],
+    "availability": "out-of-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "16",
+    "name": "SteelSeries Audio 523",
+    "price": 2443,
+    "rating": 3.5,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Audio",
+    "brand": "SteelSeries",
+    "originalPrice": 3491,
+    "discount": 30,
+    "reviewCount": 359,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "features": [
+      "Wireless",
+      "Noise Cancelling",
+      "Surround Sound",
+      "Studio Quality",
+      "Gaming"
+    ],
+    "description": "Premium audio equipment delivering exceptional sound quality and comfort for extended use.",
+    "specifications": {
+      "Driver Size": "40mm",
+      "Frequency Response": "20-20000 Hz",
+      "Connectivity": "Wired"
+    },
+    "reviews": [],
+    "createdAt": "2025-07-01T06:52:12.024Z",
+    "tags": [
+      "audio",
+      "steelseries",
+      "gaming",
+      "rgb"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "17",
+    "name": "ASUS Monitors 482",
+    "price": 19850,
+    "rating": 4.4,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Monitors",
+    "brand": "ASUS",
+    "originalPrice": 24208,
+    "discount": 18,
+    "reviewCount": 353,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "4K UHD",
+      "144Hz",
+      "HDR",
+      "Curved"
+    ],
+    "description": "High-resolution display with advanced features for gaming, professional work, and entertainment.",
+    "specifications": {
+      "Screen Size": "24 inches",
+      "Resolution": "1920x1080",
+      "Refresh Rate": "240Hz"
+    },
+    "reviews": [],
+    "createdAt": "2024-11-18T09:53:07.657Z",
+    "tags": [
+      "monitors",
+      "asus",
+      "gaming",
+      "professional",
+      "premium"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "18",
+    "name": "MSI Monitors 591",
+    "price": 12343,
+    "rating": 4.8,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Monitors",
+    "brand": "MSI",
+    "originalPrice": 14872,
+    "discount": 17,
+    "reviewCount": 399,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "4K UHD",
+      "144Hz",
+      "HDR"
+    ],
+    "description": "High-resolution display with advanced features for gaming, professional work, and entertainment.",
+    "specifications": {
+      "Screen Size": "32 inches",
+      "Resolution": "3840x2160",
+      "Refresh Rate": "60Hz"
+    },
+    "reviews": [],
+    "createdAt": "2025-06-16T19:46:45.253Z",
+    "tags": [
+      "monitors",
+      "msi",
+      "professional"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "19",
+    "name": "BenQ Monitors 348",
+    "price": 14484,
+    "rating": 5,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Monitors",
+    "brand": "BenQ",
+    "originalPrice": 19313,
+    "discount": 25,
+    "reviewCount": 229,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": true,
+    "features": [
+      "4K UHD",
+      "144Hz",
+      "HDR",
+      "Curved",
+      "Gaming"
+    ],
+    "description": "High-resolution display with advanced features for gaming, professional work, and entertainment.",
+    "specifications": {
+      "Screen Size": "32 inches",
+      "Resolution": "1920x1080",
+      "Refresh Rate": "144Hz"
+    },
+    "reviews": [],
+    "createdAt": "2025-04-12T01:04:55.000Z",
+    "tags": [
+      "monitors",
+      "benq",
+      "premium",
+      "professional"
+    ],
+    "availability": "out-of-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "20",
+    "name": "ASUS Monitors 204",
+    "price": 38785,
+    "rating": 4.2,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Monitors",
+    "brand": "ASUS",
+    "originalPrice": 42158,
+    "discount": 8,
+    "reviewCount": 268,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "4K UHD",
+      "144Hz"
+    ],
+    "description": "High-resolution display with advanced features for gaming, professional work, and entertainment.",
+    "specifications": {
+      "Screen Size": "32 inches",
+      "Resolution": "2560x1440",
+      "Refresh Rate": "144Hz"
+    },
+    "reviews": [],
+    "createdAt": "2025-05-01T10:54:16.570Z",
+    "tags": [
+      "monitors",
+      "asus",
+      "gaming"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "21",
+    "name": "HP Monitors 884",
+    "price": 30551,
+    "rating": 4.6,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Monitors",
+    "brand": "HP",
+    "originalPrice": 34327,
+    "discount": 11,
+    "reviewCount": 149,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "4K UHD",
+      "144Hz",
+      "HDR"
+    ],
+    "description": "High-resolution display with advanced features for gaming, professional work, and entertainment.",
+    "specifications": {
+      "Screen Size": "32 inches",
+      "Resolution": "2560x1440",
+      "Refresh Rate": "240Hz"
+    },
+    "reviews": [],
+    "createdAt": "2024-12-12T04:26:46.646Z",
+    "tags": [
+      "monitors",
+      "hp",
+      "rgb",
+      "gaming"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "22",
+    "name": "Lenovo Laptops 921",
+    "price": 19579,
+    "rating": 4.7,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Laptops",
+    "brand": "Lenovo",
+    "originalPrice": 26106,
+    "discount": 25,
+    "reviewCount": 484,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": true,
+    "features": [
+      "Gaming",
+      "Professional",
+      "Ultrabook",
+      "2-in-1"
+    ],
+    "description": "Powerful laptop computer designed for productivity, gaming, and professional applications.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-05-21T08:33:56.251Z",
+    "tags": [
+      "laptops",
+      "lenovo",
+      "rgb"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "23",
+    "name": "Dell Laptops 1064",
+    "price": 42514,
+    "rating": 4.2,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Laptops",
+    "brand": "Dell",
+    "originalPrice": 47238,
+    "discount": 10,
+    "reviewCount": 404,
+    "isNew": true,
+    "isBestSeller": true,
+    "featured": true,
+    "features": [
+      "Gaming",
+      "Professional",
+      "Ultrabook"
+    ],
+    "description": "Powerful laptop computer designed for productivity, gaming, and professional applications.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-09-21T16:28:27.332Z",
+    "tags": [
+      "laptops",
+      "dell",
+      "high-quality",
+      "premium"
+    ],
+    "availability": "in-stock",
+    "shipping": "paid"
+  },
+  {
+    "id": "24",
+    "name": "Apple Laptops 1065",
+    "price": 1000,
+    "rating": 4.2,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Laptops",
+    "brand": "Apple",
+    "originalPrice": 1076,
+    "discount": 7,
+    "reviewCount": 349,
+    "isNew": true,
+    "isBestSeller": true,
+    "featured": false,
+    "features": [
+      "Gaming",
+      "Professional",
+      "Ultrabook"
+    ],
+    "description": "Powerful laptop computer designed for productivity, gaming, and professional applications.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2024-11-18T10:00:09.643Z",
+    "tags": [
+      "laptops",
+      "apple",
+      "wireless",
+      "rgb",
+      "professional"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "25",
+    "name": "Framework Laptops 932",
+    "price": 1463,
+    "rating": 3.5,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Laptops",
+    "brand": "Framework",
+    "originalPrice": 1682,
+    "discount": 13,
+    "reviewCount": 185,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "Gaming",
+      "Professional"
+    ],
+    "description": "Powerful laptop computer designed for productivity, gaming, and professional applications.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-08-24T22:39:27.437Z",
+    "tags": [
+      "laptops",
+      "framework",
+      "gaming"
+    ],
+    "availability": "in-stock",
+    "shipping": "paid"
+  },
+  {
+    "id": "26",
+    "name": "Razer Laptops 499",
+    "price": 43719,
+    "rating": 4.6,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Laptops",
+    "brand": "Razer",
+    "originalPrice": 48043,
+    "discount": 9,
+    "reviewCount": 487,
+    "isNew": true,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "Gaming",
+      "Professional",
+      "Ultrabook",
+      "2-in-1"
+    ],
+    "description": "Powerful laptop computer designed for productivity, gaming, and professional applications.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-02-13T23:44:31.555Z",
+    "tags": [
+      "laptops",
+      "razer",
+      "rgb"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "27",
+    "name": "Alienware Laptops 578",
+    "price": 4408,
+    "rating": 4.9,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Laptops",
+    "brand": "Alienware",
+    "originalPrice": 6580,
+    "discount": 33,
+    "reviewCount": 375,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "Gaming",
+      "Professional",
+      "Ultrabook"
+    ],
+    "description": "Powerful laptop computer designed for productivity, gaming, and professional applications.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-05-02T22:46:42.494Z",
+    "tags": [
+      "laptops",
+      "alienware",
+      "gaming",
+      "professional"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "28",
+    "name": "PowerColor Graphics Cards 185",
+    "price": 2143,
+    "rating": 4.8,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Graphics Cards",
+    "brand": "PowerColor",
+    "originalPrice": 2858,
+    "discount": 25,
+    "reviewCount": 215,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "features": [
+      "Gaming",
+      "Ray Tracing"
+    ],
+    "description": "High-performance graphics card for gaming, content creation, and professional applications.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-09-21T22:02:25.693Z",
+    "tags": [
+      "graphics cards",
+      "powercolor",
+      "professional"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "29",
+    "name": "AMD Graphics Cards 325",
+    "price": 37233,
+    "rating": 4.1,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Graphics Cards",
+    "brand": "AMD",
+    "originalPrice": 46542,
+    "discount": 20,
+    "reviewCount": 417,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "Gaming",
+      "Ray Tracing",
+      "AI",
+      "High Performance",
+      "Low Power"
+    ],
+    "description": "High-performance graphics card for gaming, content creation, and professional applications.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-04-13T05:03:43.431Z",
+    "tags": [
+      "graphics cards",
+      "amd",
+      "gaming",
+      "professional"
+    ],
+    "availability": "in-stock",
+    "shipping": "paid"
+  },
+  {
+    "id": "30",
+    "name": "MSI Graphics Cards 363",
+    "price": 35552,
+    "rating": 3.8,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Graphics Cards",
+    "brand": "MSI",
+    "originalPrice": 44440,
+    "discount": 20,
+    "reviewCount": 449,
+    "isNew": true,
+    "isBestSeller": false,
+    "featured": true,
+    "features": [
+      "Gaming",
+      "Ray Tracing",
+      "AI",
+      "High Performance",
+      "Low Power"
+    ],
+    "description": "High-performance graphics card for gaming, content creation, and professional applications.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-04-02T05:20:41.072Z",
+    "tags": [
+      "graphics cards",
+      "msi",
+      "high-quality"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "31",
+    "name": "PowerColor Graphics Cards 1034",
+    "price": 30880,
+    "rating": 4.6,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Graphics Cards",
+    "brand": "PowerColor",
+    "originalPrice": 45413,
+    "discount": 32,
+    "reviewCount": 134,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": true,
+    "features": [
+      "Gaming",
+      "Ray Tracing",
+      "AI",
+      "High Performance",
+      "Low Power"
+    ],
+    "description": "High-performance graphics card for gaming, content creation, and professional applications.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-06-19T11:57:29.837Z",
+    "tags": [
+      "graphics cards",
+      "powercolor",
+      "premium",
+      "gaming"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "32",
+    "name": "Zotac Graphics Cards 668",
+    "price": 21700,
+    "rating": 4.7,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Graphics Cards",
+    "brand": "Zotac",
+    "originalPrice": 28182,
+    "discount": 23,
+    "reviewCount": 487,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "features": [
+      "Gaming",
+      "Ray Tracing",
+      "AI"
+    ],
+    "description": "High-performance graphics card for gaming, content creation, and professional applications.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-07-03T11:10:36.511Z",
+    "tags": [
+      "graphics cards",
+      "zotac",
+      "professional",
+      "gaming"
+    ],
+    "availability": "in-stock",
+    "shipping": "paid"
+  },
+  {
+    "id": "33",
+    "name": "SanDisk Storage 494",
+    "price": 3690,
+    "rating": 4.6,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Storage",
+    "brand": "SanDisk",
+    "originalPrice": 4672,
+    "discount": 21,
+    "reviewCount": 408,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": true,
+    "features": [
+      "NVMe SSD",
+      "SATA SSD",
+      "HDD",
+      "High Speed"
+    ],
+    "description": "Fast and reliable storage solution for your data with high-speed performance and durability.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-07-07T20:05:59.290Z",
+    "tags": [
+      "storage",
+      "sandisk",
+      "professional",
+      "gaming"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "34",
+    "name": "Samsung Storage 714",
+    "price": 12205,
+    "rating": 4.6,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Storage",
+    "brand": "Samsung",
+    "originalPrice": 16720,
+    "discount": 27,
+    "reviewCount": 255,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": true,
+    "features": [
+      "NVMe SSD",
+      "SATA SSD",
+      "HDD"
+    ],
+    "description": "Fast and reliable storage solution for your data with high-speed performance and durability.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-05-16T18:33:59.572Z",
+    "tags": [
+      "storage",
+      "samsung",
+      "gaming"
+    ],
+    "availability": "out-of-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "35",
+    "name": "Samsung Storage 542",
+    "price": 10648,
+    "rating": 5,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Storage",
+    "brand": "Samsung",
+    "originalPrice": 12986,
+    "discount": 18,
+    "reviewCount": 77,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": true,
+    "features": [
+      "NVMe SSD",
+      "SATA SSD",
+      "HDD",
+      "High Speed"
+    ],
+    "description": "Fast and reliable storage solution for your data with high-speed performance and durability.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-09-09T01:38:14.655Z",
+    "tags": [
+      "storage",
+      "samsung",
+      "premium"
+    ],
+    "availability": "out-of-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "36",
+    "name": "Crucial Storage 632",
+    "price": 2552,
+    "rating": 4.5,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Storage",
+    "brand": "Crucial",
+    "originalPrice": 3358,
+    "discount": 24,
+    "reviewCount": 505,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "features": [
+      "NVMe SSD",
+      "SATA SSD",
+      "HDD"
+    ],
+    "description": "Fast and reliable storage solution for your data with high-speed performance and durability.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-04-09T05:09:54.630Z",
+    "tags": [
+      "storage",
+      "crucial",
+      "high-quality"
+    ],
+    "availability": "out-of-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "37",
+    "name": "Seagate Storage 100",
+    "price": 28950,
+    "rating": 3.7,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Storage",
+    "brand": "Seagate",
+    "originalPrice": 38600,
+    "discount": 25,
+    "reviewCount": 93,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "NVMe SSD",
+      "SATA SSD"
+    ],
+    "description": "Fast and reliable storage solution for your data with high-speed performance and durability.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-09-08T07:13:37.786Z",
+    "tags": [
+      "storage",
+      "seagate",
+      "wireless"
+    ],
+    "availability": "out-of-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "38",
+    "name": "Kingston Memory 469",
+    "price": 2488,
+    "rating": 4.9,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Memory",
+    "brand": "Kingston",
+    "originalPrice": 2705,
+    "discount": 8,
+    "reviewCount": 97,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": true,
+    "features": [
+      "DDR4",
+      "DDR5"
+    ],
+    "description": "High-speed memory modules for improved system performance and multitasking capabilities.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-01-29T02:54:22.560Z",
+    "tags": [
+      "memory",
+      "kingston",
+      "gaming",
+      "rgb"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "39",
+    "name": "ADATA Memory 907",
+    "price": 28971,
+    "rating": 4.1,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Memory",
+    "brand": "ADATA",
+    "originalPrice": 34906,
+    "discount": 17,
+    "reviewCount": 263,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": false,
+    "features": [
+      "DDR4",
+      "DDR5",
+      "High Speed",
+      "Low Latency"
+    ],
+    "description": "High-speed memory modules for improved system performance and multitasking capabilities.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-03-01T17:19:19.474Z",
+    "tags": [
+      "memory",
+      "adata",
+      "wireless",
+      "rgb"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "40",
+    "name": "Corsair Memory 329",
+    "price": 7078,
+    "rating": 3.8,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Memory",
+    "brand": "Corsair",
+    "originalPrice": 8960,
+    "discount": 21,
+    "reviewCount": 298,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": true,
+    "features": [
+      "DDR4",
+      "DDR5"
+    ],
+    "description": "High-speed memory modules for improved system performance and multitasking capabilities.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-04-14T13:51:33.689Z",
+    "tags": [
+      "memory",
+      "corsair",
+      "professional"
+    ],
+    "availability": "out-of-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "41",
+    "name": "Silicon Power Memory 839",
+    "price": 36414,
+    "rating": 3.5,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Memory",
+    "brand": "Silicon Power",
+    "originalPrice": 40016,
+    "discount": 9,
+    "reviewCount": 201,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "DDR4",
+      "DDR5"
+    ],
+    "description": "High-speed memory modules for improved system performance and multitasking capabilities.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2024-10-28T19:21:38.652Z",
+    "tags": [
+      "memory",
+      "silicon power",
+      "rgb"
+    ],
+    "availability": "in-stock",
+    "shipping": "paid"
+  },
+  {
+    "id": "42",
+    "name": "TeamGroup Memory 927",
+    "price": 25183,
+    "rating": 4.8,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Memory",
+    "brand": "TeamGroup",
+    "originalPrice": 34498,
+    "discount": 27,
+    "reviewCount": 347,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "DDR4",
+      "DDR5",
+      "High Speed",
+      "Low Latency",
+      "RGB"
+    ],
+    "description": "High-speed memory modules for improved system performance and multitasking capabilities.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-09-12T22:04:50.098Z",
+    "tags": [
+      "memory",
+      "teamgroup",
+      "high-quality"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "43",
+    "name": "Kingston Memory 338",
+    "price": 1527,
+    "rating": 4,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Memory",
+    "brand": "Kingston",
+    "originalPrice": 1608,
+    "discount": 5,
+    "reviewCount": 298,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "DDR4",
+      "DDR5",
+      "High Speed",
+      "Low Latency",
+      "RGB"
+    ],
+    "description": "High-speed memory modules for improved system performance and multitasking capabilities.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-09-03T07:06:52.236Z",
+    "tags": [
+      "memory",
+      "kingston",
+      "wireless",
+      "professional"
+    ],
+    "availability": "in-stock",
+    "shipping": "paid"
+  },
+  {
+    "id": "44",
+    "name": "Gigabyte Motherboards 656",
+    "price": 6156,
+    "rating": 4,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Motherboards",
+    "brand": "Gigabyte",
+    "originalPrice": 7893,
+    "discount": 22,
+    "reviewCount": 196,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "features": [
+      "Gaming",
+      "Professional",
+      "WiFi",
+      "Bluetooth",
+      "RGB"
+    ],
+    "description": "Feature-rich motherboard providing the foundation for your high-performance computer system.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-07-02T16:40:43.971Z",
+    "tags": [
+      "motherboards",
+      "gigabyte",
+      "gaming",
+      "high-quality"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "45",
+    "name": "ASUS Motherboards 227",
+    "price": 8803,
+    "rating": 4.9,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Motherboards",
+    "brand": "ASUS",
+    "originalPrice": 12947,
+    "discount": 32,
+    "reviewCount": 152,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "Gaming",
+      "Professional",
+      "WiFi",
+      "Bluetooth",
+      "RGB"
+    ],
+    "description": "Feature-rich motherboard providing the foundation for your high-performance computer system.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2024-11-23T20:01:46.516Z",
+    "tags": [
+      "motherboards",
+      "asus",
+      "rgb",
+      "wireless"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "46",
+    "name": "MSI Motherboards 492",
+    "price": 37521,
+    "rating": 4.7,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Motherboards",
+    "brand": "MSI",
+    "originalPrice": 43630,
+    "discount": 14,
+    "reviewCount": 85,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "Gaming",
+      "Professional"
+    ],
+    "description": "Feature-rich motherboard providing the foundation for your high-performance computer system.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-04-18T06:13:09.525Z",
+    "tags": [
+      "motherboards",
+      "msi",
+      "high-quality",
+      "premium"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "47",
+    "name": "ASUS Motherboards 968",
+    "price": 3755,
+    "rating": 4,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Motherboards",
+    "brand": "ASUS",
+    "originalPrice": 5145,
+    "discount": 27,
+    "reviewCount": 90,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": false,
+    "features": [
+      "Gaming",
+      "Professional",
+      "WiFi",
+      "Bluetooth",
+      "RGB"
+    ],
+    "description": "Feature-rich motherboard providing the foundation for your high-performance computer system.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-05-12T13:56:16.915Z",
+    "tags": [
+      "motherboards",
+      "asus",
+      "high-quality",
+      "professional",
+      "premium"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "48",
+    "name": "Gigabyte Motherboards 171",
+    "price": 13886,
+    "rating": 3.6,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Motherboards",
+    "brand": "Gigabyte",
+    "originalPrice": 19558,
+    "discount": 29,
+    "reviewCount": 68,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "features": [
+      "Gaming",
+      "Professional"
+    ],
+    "description": "Feature-rich motherboard providing the foundation for your high-performance computer system.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-01-10T08:19:04.900Z",
+    "tags": [
+      "motherboards",
+      "gigabyte",
+      "professional",
+      "premium"
+    ],
+    "availability": "out-of-stock",
+    "shipping": "paid"
+  },
+  {
+    "id": "49",
+    "name": "Intel CPUs 752",
+    "price": 23993,
+    "rating": 3.6,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "CPUs",
+    "brand": "Intel",
+    "originalPrice": 33794,
+    "discount": 29,
+    "reviewCount": 315,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": false,
+    "features": [
+      "High Performance",
+      "Gaming",
+      "Professional",
+      "Low Power",
+      "Overclocked"
+    ],
+    "description": "High-performance processor delivering exceptional computing power for demanding applications.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2024-12-27T19:17:45.702Z",
+    "tags": [
+      "cpus",
+      "intel",
+      "premium",
+      "rgb"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "50",
+    "name": "Apple CPUs 168",
+    "price": 6255,
+    "rating": 4.2,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "CPUs",
+    "brand": "Apple",
+    "originalPrice": 8811,
+    "discount": 29,
+    "reviewCount": 463,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "features": [
+      "High Performance",
+      "Gaming",
+      "Professional",
+      "Low Power",
+      "Overclocked"
+    ],
+    "description": "High-performance processor delivering exceptional computing power for demanding applications.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-01-16T03:58:54.604Z",
+    "tags": [
+      "cpus",
+      "apple",
+      "high-quality"
+    ],
+    "availability": "in-stock",
+    "shipping": "paid"
+  },
+  {
+    "id": "51",
+    "name": "AMD CPUs 180",
+    "price": 26410,
+    "rating": 4.3,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "CPUs",
+    "brand": "AMD",
+    "originalPrice": 31071,
+    "discount": 15,
+    "reviewCount": 476,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": true,
+    "features": [
+      "High Performance",
+      "Gaming",
+      "Professional",
+      "Low Power",
+      "Overclocked"
+    ],
+    "description": "High-performance processor delivering exceptional computing power for demanding applications.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-08-18T07:48:24.749Z",
+    "tags": [
+      "cpus",
+      "amd",
+      "high-quality",
+      "premium"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "52",
+    "name": "Intel CPUs 157",
+    "price": 28057,
+    "rating": 4.9,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "CPUs",
+    "brand": "Intel",
+    "originalPrice": 35516,
+    "discount": 21,
+    "reviewCount": 132,
+    "isNew": true,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "High Performance",
+      "Gaming"
+    ],
+    "description": "High-performance processor delivering exceptional computing power for demanding applications.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2024-11-06T13:25:01.850Z",
+    "tags": [
+      "cpus",
+      "intel",
+      "professional"
+    ],
+    "availability": "in-stock",
+    "shipping": "paid"
+  },
+  {
+    "id": "53",
+    "name": "AMD CPUs 632",
+    "price": 22233,
+    "rating": 3.8,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "CPUs",
+    "brand": "AMD",
+    "originalPrice": 32697,
+    "discount": 32,
+    "reviewCount": 162,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": true,
+    "features": [
+      "High Performance",
+      "Gaming",
+      "Professional"
+    ],
+    "description": "High-performance processor delivering exceptional computing power for demanding applications.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-06-07T18:13:54.194Z",
+    "tags": [
+      "cpus",
+      "amd",
+      "premium",
+      "rgb"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "54",
+    "name": "Thermaltake Cooling 593",
+    "price": 12525,
+    "rating": 4.3,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Cooling",
+    "brand": "Thermaltake",
+    "originalPrice": 17396,
+    "discount": 28,
+    "reviewCount": 508,
+    "isNew": true,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "Air Cooling",
+      "Liquid Cooling"
+    ],
+    "description": "Efficient cooling solution to keep your system running cool and quiet under heavy loads.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2024-11-29T16:11:07.125Z",
+    "tags": [
+      "cooling",
+      "thermaltake",
+      "high-quality"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "55",
+    "name": "Noctua Cooling 829",
+    "price": 28028,
+    "rating": 4.6,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Cooling",
+    "brand": "Noctua",
+    "originalPrice": 37876,
+    "discount": 26,
+    "reviewCount": 94,
+    "isNew": true,
+    "isBestSeller": false,
+    "featured": true,
+    "features": [
+      "Air Cooling",
+      "Liquid Cooling",
+      "RGB",
+      "Silent",
+      "High Performance"
+    ],
+    "description": "Efficient cooling solution to keep your system running cool and quiet under heavy loads.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-08-01T03:57:58.907Z",
+    "tags": [
+      "cooling",
+      "noctua",
+      "high-quality",
+      "premium"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "56",
+    "name": "Cooler Master Cooling 506",
+    "price": 39390,
+    "rating": 4.7,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Cooling",
+    "brand": "Cooler Master",
+    "originalPrice": 49861,
+    "discount": 21,
+    "reviewCount": 328,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "Air Cooling",
+      "Liquid Cooling",
+      "RGB",
+      "Silent"
+    ],
+    "description": "Efficient cooling solution to keep your system running cool and quiet under heavy loads.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-05-18T04:49:54.614Z",
+    "tags": [
+      "cooling",
+      "cooler master",
+      "rgb"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "57",
+    "name": "be quiet! Cooling 847",
+    "price": 34621,
+    "rating": 3.6,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Cooling",
+    "brand": "be quiet!",
+    "originalPrice": 42221,
+    "discount": 18,
+    "reviewCount": 241,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "features": [
+      "Air Cooling",
+      "Liquid Cooling"
+    ],
+    "description": "Efficient cooling solution to keep your system running cool and quiet under heavy loads.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-01-26T06:20:13.467Z",
+    "tags": [
+      "cooling",
+      "be quiet!",
+      "gaming",
+      "rgb"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "58",
+    "name": "Corsair Cooling 388",
+    "price": 25578,
+    "rating": 4.2,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Cooling",
+    "brand": "Corsair",
+    "originalPrice": 33656,
+    "discount": 24,
+    "reviewCount": 170,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "Air Cooling",
+      "Liquid Cooling"
+    ],
+    "description": "Efficient cooling solution to keep your system running cool and quiet under heavy loads.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-01-25T06:05:19.265Z",
+    "tags": [
+      "cooling",
+      "corsair",
+      "high-quality",
+      "gaming",
+      "wireless"
+    ],
+    "availability": "out-of-stock",
+    "shipping": "paid"
+  },
+  {
+    "id": "59",
+    "name": "Cooler Master Cooling 312",
+    "price": 10449,
+    "rating": 4.5,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Cooling",
+    "brand": "Cooler Master",
+    "originalPrice": 15596,
+    "discount": 33,
+    "reviewCount": 19,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": false,
+    "features": [
+      "Air Cooling",
+      "Liquid Cooling",
+      "RGB",
+      "Silent",
+      "High Performance"
+    ],
+    "description": "Efficient cooling solution to keep your system running cool and quiet under heavy loads.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-07-10T13:17:30.326Z",
+    "tags": [
+      "cooling",
+      "cooler master",
+      "high-quality",
+      "professional"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "60",
+    "name": "Thermaltake Cases 900",
+    "price": 37455,
+    "rating": 3.6,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Cases",
+    "brand": "Thermaltake",
+    "originalPrice": 43553,
+    "discount": 14,
+    "reviewCount": 408,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "features": [
+      "Gaming",
+      "Professional"
+    ],
+    "description": "Premium computer case with excellent airflow, cable management, and modern design features.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2024-10-09T05:44:11.777Z",
+    "tags": [
+      "cases",
+      "thermaltake",
+      "high-quality"
+    ],
+    "availability": "in-stock",
+    "shipping": "paid"
+  },
+  {
+    "id": "61",
+    "name": "Thermaltake Cases 892",
+    "price": 39032,
+    "rating": 4.9,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Cases",
+    "brand": "Thermaltake",
+    "originalPrice": 42893,
+    "discount": 9,
+    "reviewCount": 137,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "Gaming",
+      "Professional",
+      "RGB",
+      "Tempered Glass"
+    ],
+    "description": "Premium computer case with excellent airflow, cable management, and modern design features.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2024-12-31T02:03:09.390Z",
+    "tags": [
+      "cases",
+      "thermaltake",
+      "professional"
+    ],
+    "availability": "out-of-stock",
+    "shipping": "paid"
+  },
+  {
+    "id": "62",
+    "name": "Rosewill Cases 1039",
+    "price": 15329,
+    "rating": 3.8,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Cases",
+    "brand": "Rosewill",
+    "originalPrice": 16136,
+    "discount": 5,
+    "reviewCount": 443,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "features": [
+      "Gaming",
+      "Professional",
+      "RGB",
+      "Tempered Glass",
+      "Compact"
+    ],
+    "description": "Premium computer case with excellent airflow, cable management, and modern design features.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-08-21T17:52:01.016Z",
+    "tags": [
+      "cases",
+      "rosewill",
+      "high-quality"
+    ],
+    "availability": "out-of-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "63",
+    "name": "NZXT Cases 177",
+    "price": 3097,
+    "rating": 4,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Cases",
+    "brand": "NZXT",
+    "originalPrice": 3295,
+    "discount": 6,
+    "reviewCount": 288,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "features": [
+      "Gaming",
+      "Professional",
+      "RGB",
+      "Tempered Glass",
+      "Compact"
+    ],
+    "description": "Premium computer case with excellent airflow, cable management, and modern design features.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-09-01T20:01:48.897Z",
+    "tags": [
+      "cases",
+      "nzxt",
+      "premium"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "64",
+    "name": "NZXT Cases 1008",
+    "price": 7659,
+    "rating": 5,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Cases",
+    "brand": "NZXT",
+    "originalPrice": 11264,
+    "discount": 32,
+    "reviewCount": 223,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "features": [
+      "Gaming",
+      "Professional"
+    ],
+    "description": "Premium computer case with excellent airflow, cable management, and modern design features.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-07-14T09:38:20.994Z",
+    "tags": [
+      "cases",
+      "nzxt",
+      "rgb",
+      "wireless"
+    ],
+    "availability": "in-stock",
+    "shipping": "paid"
+  },
+  {
+    "id": "65",
+    "name": "be quiet! Cases 913",
+    "price": 15818,
+    "rating": 3.8,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Cases",
+    "brand": "be quiet!",
+    "originalPrice": 19058,
+    "discount": 17,
+    "reviewCount": 415,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "Gaming",
+      "Professional"
+    ],
+    "description": "Premium computer case with excellent airflow, cable management, and modern design features.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2024-12-24T21:38:37.144Z",
+    "tags": [
+      "cases",
+      "be quiet!",
+      "rgb"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "66",
+    "name": "Antec Power Supplies 483",
+    "price": 40449,
+    "rating": 4.7,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Power Supplies",
+    "brand": "Antec",
+    "originalPrice": 48734,
+    "discount": 17,
+    "reviewCount": 21,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "Modular",
+      "Semi-modular",
+      "80 Plus Gold",
+      "80 Plus Platinum"
+    ],
+    "description": "Reliable power supply unit delivering clean, stable power to your computer components.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2024-12-24T20:32:09.562Z",
+    "tags": [
+      "power supplies",
+      "antec",
+      "professional"
+    ],
+    "availability": "in-stock",
+    "shipping": "paid"
+  },
+  {
+    "id": "67",
+    "name": "Thermaltake Power Supplies 722",
+    "price": 10913,
+    "rating": 3.8,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Power Supplies",
+    "brand": "Thermaltake",
+    "originalPrice": 16050,
+    "discount": 32,
+    "reviewCount": 185,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "features": [
+      "Modular",
+      "Semi-modular",
+      "80 Plus Gold",
+      "80 Plus Platinum",
+      "Silent"
+    ],
+    "description": "Reliable power supply unit delivering clean, stable power to your computer components.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2024-12-03T06:39:16.199Z",
+    "tags": [
+      "power supplies",
+      "thermaltake",
+      "wireless"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "68",
+    "name": "be quiet! Power Supplies 473",
+    "price": 21118,
+    "rating": 4.1,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Power Supplies",
+    "brand": "be quiet!",
+    "originalPrice": 30169,
+    "discount": 30,
+    "reviewCount": 29,
+    "isNew": true,
+    "isBestSeller": true,
+    "featured": true,
+    "features": [
+      "Modular",
+      "Semi-modular",
+      "80 Plus Gold",
+      "80 Plus Platinum"
+    ],
+    "description": "Reliable power supply unit delivering clean, stable power to your computer components.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-03-27T10:44:35.555Z",
+    "tags": [
+      "power supplies",
+      "be quiet!",
+      "premium"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "69",
+    "name": "Corsair Power Supplies 925",
+    "price": 27170,
+    "rating": 4.6,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Power Supplies",
+    "brand": "Corsair",
+    "originalPrice": 33135,
+    "discount": 18,
+    "reviewCount": 294,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": true,
+    "features": [
+      "Modular",
+      "Semi-modular",
+      "80 Plus Gold",
+      "80 Plus Platinum"
+    ],
+    "description": "Reliable power supply unit delivering clean, stable power to your computer components.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-08-23T10:59:18.237Z",
+    "tags": [
+      "power supplies",
+      "corsair",
+      "wireless",
+      "gaming",
+      "professional"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "70",
+    "name": "Antec Power Supplies 526",
+    "price": 15619,
+    "rating": 3.8,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Power Supplies",
+    "brand": "Antec",
+    "originalPrice": 18819,
+    "discount": 17,
+    "reviewCount": 162,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "Modular",
+      "Semi-modular",
+      "80 Plus Gold"
+    ],
+    "description": "Reliable power supply unit delivering clean, stable power to your computer components.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-09-13T10:11:58.479Z",
+    "tags": [
+      "power supplies",
+      "antec",
+      "gaming",
+      "rgb"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "71",
+    "name": "Lian Li Accessories 452",
+    "price": 19849,
+    "rating": 4.4,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Accessories",
+    "brand": "Lian Li",
+    "originalPrice": 28767,
+    "discount": 31,
+    "reviewCount": 377,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "features": [
+      "RGB",
+      "Gaming",
+      "Professional"
+    ],
+    "description": "Essential accessories to enhance your computing experience and improve productivity.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-02-18T07:00:03.698Z",
+    "tags": [
+      "accessories",
+      "lian li",
+      "gaming"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "72",
+    "name": "Lian Li Accessories 750",
+    "price": 12291,
+    "rating": 4.1,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Accessories",
+    "brand": "Lian Li",
+    "originalPrice": 17072,
+    "discount": 28,
+    "reviewCount": 412,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": true,
+    "features": [
+      "RGB",
+      "Gaming",
+      "Professional",
+      "Wireless"
+    ],
+    "description": "Essential accessories to enhance your computing experience and improve productivity.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2024-11-18T19:55:22.950Z",
+    "tags": [
+      "accessories",
+      "lian li",
+      "premium"
+    ],
+    "availability": "out-of-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "73",
+    "name": "SteelSeries Accessories 871",
+    "price": 8074,
+    "rating": 3.6,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Accessories",
+    "brand": "SteelSeries",
+    "originalPrice": 9389,
+    "discount": 14,
+    "reviewCount": 203,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": true,
+    "features": [
+      "RGB",
+      "Gaming",
+      "Professional",
+      "Wireless",
+      "Wired"
+    ],
+    "description": "Essential accessories to enhance your computing experience and improve productivity.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-09-08T05:27:03.762Z",
+    "tags": [
+      "accessories",
+      "steelseries",
+      "professional"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "74",
+    "name": "Thermaltake Accessories 585",
+    "price": 37492,
+    "rating": 4.6,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Accessories",
+    "brand": "Thermaltake",
+    "originalPrice": 41201,
+    "discount": 9,
+    "reviewCount": 42,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": false,
+    "features": [
+      "RGB",
+      "Gaming",
+      "Professional",
+      "Wireless"
+    ],
+    "description": "Essential accessories to enhance your computing experience and improve productivity.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-03-10T14:02:07.300Z",
+    "tags": [
+      "accessories",
+      "thermaltake",
+      "professional",
+      "high-quality"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "75",
+    "name": "Thermaltake Accessories 164",
+    "price": 16946,
+    "rating": 4.1,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Accessories",
+    "brand": "Thermaltake",
+    "originalPrice": 23869,
+    "discount": 29,
+    "reviewCount": 186,
+    "isNew": true,
+    "isBestSeller": false,
+    "featured": true,
+    "features": [
+      "RGB",
+      "Gaming",
+      "Professional"
+    ],
+    "description": "Essential accessories to enhance your computing experience and improve productivity.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2024-12-18T12:41:56.151Z",
+    "tags": [
+      "accessories",
+      "thermaltake",
+      "premium",
+      "wireless"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "76",
+    "name": "Logitech Accessories 621",
+    "price": 32437,
+    "rating": 3.6,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Accessories",
+    "brand": "Logitech",
+    "originalPrice": 44435,
+    "discount": 27,
+    "reviewCount": 151,
+    "isNew": true,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "RGB",
+      "Gaming",
+      "Professional",
+      "Wireless"
+    ],
+    "description": "Essential accessories to enhance your computing experience and improve productivity.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2024-11-12T12:44:57.617Z",
+    "tags": [
+      "accessories",
+      "logitech",
+      "wireless"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "77",
+    "name": "Netgear Networking 255",
+    "price": 29845,
+    "rating": 4.6,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Networking",
+    "brand": "Netgear",
+    "originalPrice": 37307,
+    "discount": 20,
+    "reviewCount": 180,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": false,
+    "features": [
+      "WiFi 6",
+      "WiFi 6E",
+      "Gigabit"
+    ],
+    "description": "High-speed networking equipment for fast, reliable internet connectivity and data transfer.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-02-10T12:49:16.186Z",
+    "tags": [
+      "networking",
+      "netgear",
+      "wireless",
+      "premium",
+      "gaming"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "78",
+    "name": "TP-Link Networking 210",
+    "price": 3056,
+    "rating": 4.5,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Networking",
+    "brand": "TP-Link",
+    "originalPrice": 3217,
+    "discount": 5,
+    "reviewCount": 119,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "WiFi 6",
+      "WiFi 6E"
+    ],
+    "description": "High-speed networking equipment for fast, reliable internet connectivity and data transfer.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2024-12-20T20:05:17.462Z",
+    "tags": [
+      "networking",
+      "tp-link",
+      "premium",
+      "high-quality",
+      "professional"
+    ],
+    "availability": "in-stock",
+    "shipping": "paid"
+  },
+  {
+    "id": "79",
+    "name": "Zyxel Networking 945",
+    "price": 16057,
+    "rating": 4.8,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Networking",
+    "brand": "Zyxel",
+    "originalPrice": 20854,
+    "discount": 23,
+    "reviewCount": 239,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": true,
+    "features": [
+      "WiFi 6",
+      "WiFi 6E"
+    ],
+    "description": "High-speed networking equipment for fast, reliable internet connectivity and data transfer.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-04-23T06:37:19.631Z",
+    "tags": [
+      "networking",
+      "zyxel",
+      "professional",
+      "high-quality",
+      "wireless"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "80",
+    "name": "Linksys Networking 503",
+    "price": 23617,
+    "rating": 4.4,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Networking",
+    "brand": "Linksys",
+    "originalPrice": 28802,
+    "discount": 18,
+    "reviewCount": 42,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": false,
+    "features": [
+      "WiFi 6",
+      "WiFi 6E",
+      "Gigabit"
+    ],
+    "description": "High-speed networking equipment for fast, reliable internet connectivity and data transfer.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-03-17T08:46:46.308Z",
+    "tags": [
+      "networking",
+      "linksys",
+      "wireless",
+      "high-quality"
+    ],
+    "availability": "in-stock",
+    "shipping": "paid"
+  },
+  {
+    "id": "81",
+    "name": "Aruba Networking 378",
+    "price": 14759,
+    "rating": 3.8,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Networking",
+    "brand": "Aruba",
+    "originalPrice": 18923,
+    "discount": 22,
+    "reviewCount": 35,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": false,
+    "features": [
+      "WiFi 6",
+      "WiFi 6E",
+      "Gigabit",
+      "10 Gigabit",
+      "Mesh"
+    ],
+    "description": "High-speed networking equipment for fast, reliable internet connectivity and data transfer.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-09-08T04:18:17.174Z",
+    "tags": [
+      "networking",
+      "aruba",
+      "premium"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "82",
+    "name": "Linksys Networking 694",
+    "price": 29371,
+    "rating": 4.4,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Networking",
+    "brand": "Linksys",
+    "originalPrice": 33760,
+    "discount": 13,
+    "reviewCount": 312,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": true,
+    "features": [
+      "WiFi 6",
+      "WiFi 6E",
+      "Gigabit",
+      "10 Gigabit",
+      "Mesh"
+    ],
+    "description": "High-speed networking equipment for fast, reliable internet connectivity and data transfer.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-04-16T15:11:07.028Z",
+    "tags": [
+      "networking",
+      "linksys",
+      "wireless"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "83",
+    "name": "Nikon Cameras 871",
+    "price": 1702,
+    "rating": 4.7,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Cameras",
+    "brand": "Nikon",
+    "originalPrice": 2102,
+    "discount": 19,
+    "reviewCount": 287,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "Mirrorless",
+      "DSLR",
+      "4K Video",
+      "Professional",
+      "Gaming"
+    ],
+    "description": "Professional camera equipment for photography and videography with advanced features.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-02-16T01:59:13.308Z",
+    "tags": [
+      "cameras",
+      "nikon",
+      "wireless"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "84",
+    "name": "Olympus Cameras 230",
+    "price": 37004,
+    "rating": 4.4,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Cameras",
+    "brand": "Olympus",
+    "originalPrice": 41116,
+    "discount": 10,
+    "reviewCount": 144,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": false,
+    "features": [
+      "Mirrorless",
+      "DSLR",
+      "4K Video"
+    ],
+    "description": "Professional camera equipment for photography and videography with advanced features.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-03-26T01:17:33.821Z",
+    "tags": [
+      "cameras",
+      "olympus",
+      "professional"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "85",
+    "name": "Canon Cameras 246",
+    "price": 3797,
+    "rating": 3.7,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Cameras",
+    "brand": "Canon",
+    "originalPrice": 5584,
+    "discount": 32,
+    "reviewCount": 186,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "Mirrorless",
+      "DSLR"
+    ],
+    "description": "Professional camera equipment for photography and videography with advanced features.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-01-18T23:34:06.191Z",
+    "tags": [
+      "cameras",
+      "canon",
+      "rgb",
+      "gaming"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "86",
+    "name": "Tamron Cameras 592",
+    "price": 22606,
+    "rating": 3.6,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Cameras",
+    "brand": "Tamron",
+    "originalPrice": 26596,
+    "discount": 15,
+    "reviewCount": 187,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "Mirrorless",
+      "DSLR",
+      "4K Video"
+    ],
+    "description": "Professional camera equipment for photography and videography with advanced features.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-07-05T21:44:31.768Z",
+    "tags": [
+      "cameras",
+      "tamron",
+      "wireless"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "87",
+    "name": "Panasonic Cameras 441",
+    "price": 7673,
+    "rating": 4.2,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Cameras",
+    "brand": "Panasonic",
+    "originalPrice": 10369,
+    "discount": 26,
+    "reviewCount": 193,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "Mirrorless",
+      "DSLR"
+    ],
+    "description": "Professional camera equipment for photography and videography with advanced features.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-08-08T19:51:11.939Z",
+    "tags": [
+      "cameras",
+      "panasonic",
+      "gaming",
+      "rgb"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "88",
+    "name": "Pentax Cameras 176",
+    "price": 11601,
+    "rating": 4.1,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Cameras",
+    "brand": "Pentax",
+    "originalPrice": 17061,
+    "discount": 32,
+    "reviewCount": 369,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "Mirrorless",
+      "DSLR",
+      "4K Video"
+    ],
+    "description": "Professional camera equipment for photography and videography with advanced features.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-02-08T18:40:07.898Z",
+    "tags": [
+      "cameras",
+      "pentax",
+      "premium",
+      "high-quality"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "89",
+    "name": "Realme Tablets 1082",
+    "price": 13482,
+    "rating": 4.5,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Tablets",
+    "brand": "Realme",
+    "originalPrice": 14497,
+    "discount": 7,
+    "reviewCount": 313,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": true,
+    "features": [
+      "Gaming",
+      "Professional",
+      "Drawing",
+      "High Resolution"
+    ],
+    "description": "Versatile tablet computer perfect for work, entertainment, and creative applications.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-07-10T18:59:20.633Z",
+    "tags": [
+      "tablets",
+      "realme",
+      "rgb"
+    ],
+    "availability": "in-stock",
+    "shipping": "paid"
+  },
+  {
+    "id": "90",
+    "name": "Xiaomi Tablets 912",
+    "price": 31950,
+    "rating": 4,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Tablets",
+    "brand": "Xiaomi",
+    "originalPrice": 39445,
+    "discount": 19,
+    "reviewCount": 323,
+    "isNew": true,
+    "isBestSeller": true,
+    "featured": false,
+    "features": [
+      "Gaming",
+      "Professional"
+    ],
+    "description": "Versatile tablet computer perfect for work, entertainment, and creative applications.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-02-14T07:09:37.013Z",
+    "tags": [
+      "tablets",
+      "xiaomi",
+      "premium"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "91",
+    "name": "Microsoft Tablets 136",
+    "price": 16302,
+    "rating": 4,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Tablets",
+    "brand": "Microsoft",
+    "originalPrice": 23290,
+    "discount": 30,
+    "reviewCount": 278,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "features": [
+      "Gaming",
+      "Professional",
+      "Drawing"
+    ],
+    "description": "Versatile tablet computer perfect for work, entertainment, and creative applications.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-05-10T19:31:30.733Z",
+    "tags": [
+      "tablets",
+      "microsoft",
+      "high-quality"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "92",
+    "name": "Samsung Tablets 350",
+    "price": 22244,
+    "rating": 4.2,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Tablets",
+    "brand": "Samsung",
+    "originalPrice": 24716,
+    "discount": 10,
+    "reviewCount": 65,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "Gaming",
+      "Professional"
+    ],
+    "description": "Versatile tablet computer perfect for work, entertainment, and creative applications.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-07-31T15:58:08.566Z",
+    "tags": [
+      "tablets",
+      "samsung",
+      "gaming"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "93",
+    "name": "Microsoft Tablets 337",
+    "price": 32466,
+    "rating": 4.8,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Tablets",
+    "brand": "Microsoft",
+    "originalPrice": 36479,
+    "discount": 11,
+    "reviewCount": 18,
+    "isNew": true,
+    "isBestSeller": true,
+    "featured": true,
+    "features": [
+      "Gaming",
+      "Professional",
+      "Drawing"
+    ],
+    "description": "Versatile tablet computer perfect for work, entertainment, and creative applications.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-09-15T19:02:08.451Z",
+    "tags": [
+      "tablets",
+      "microsoft",
+      "premium",
+      "wireless"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "94",
+    "name": "Huawei Tablets 1058",
+    "price": 28942,
+    "rating": 4.4,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Tablets",
+    "brand": "Huawei",
+    "originalPrice": 32889,
+    "discount": 12,
+    "reviewCount": 219,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "Gaming",
+      "Professional"
+    ],
+    "description": "Versatile tablet computer perfect for work, entertainment, and creative applications.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-01-07T03:03:09.309Z",
+    "tags": [
+      "tablets",
+      "huawei",
+      "high-quality"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "95",
+    "name": "Google Phones 1004",
+    "price": 20483,
+    "rating": 4.7,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Phones",
+    "brand": "Google",
+    "originalPrice": 22509,
+    "discount": 9,
+    "reviewCount": 185,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": true,
+    "features": [
+      "Gaming",
+      "Professional",
+      "High Resolution",
+      "Long Battery"
+    ],
+    "description": "Advanced smartphone with cutting-edge features and exceptional performance.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-02-21T16:27:37.019Z",
+    "tags": [
+      "phones",
+      "google",
+      "professional",
+      "rgb",
+      "premium"
+    ],
+    "availability": "in-stock",
+    "shipping": "paid"
+  },
+  {
+    "id": "96",
+    "name": "Nothing Phones 1053",
+    "price": 11318,
+    "rating": 4.8,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Phones",
+    "brand": "Nothing",
+    "originalPrice": 15295,
+    "discount": 26,
+    "reviewCount": 30,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": false,
+    "features": [
+      "Gaming",
+      "Professional",
+      "High Resolution",
+      "Long Battery",
+      "Fast Charging"
+    ],
+    "description": "Advanced smartphone with cutting-edge features and exceptional performance.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-08-10T20:42:04.069Z",
+    "tags": [
+      "phones",
+      "nothing",
+      "wireless"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "97",
+    "name": "Samsung Phones 122",
+    "price": 20784,
+    "rating": 5,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Phones",
+    "brand": "Samsung",
+    "originalPrice": 30122,
+    "discount": 31,
+    "reviewCount": 187,
+    "isNew": true,
+    "isBestSeller": true,
+    "featured": true,
+    "features": [
+      "Gaming",
+      "Professional",
+      "High Resolution",
+      "Long Battery",
+      "Fast Charging"
+    ],
+    "description": "Advanced smartphone with cutting-edge features and exceptional performance.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-06-03T04:29:09.505Z",
+    "tags": [
+      "phones",
+      "samsung",
+      "rgb"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "98",
+    "name": "Google Phones 939",
+    "price": 15535,
+    "rating": 4,
+    "image": "/assets/images/carocel3.jpg",
+    "category": "Phones",
+    "brand": "Google",
+    "originalPrice": 22846,
+    "discount": 32,
+    "reviewCount": 349,
+    "isNew": true,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "Gaming",
+      "Professional"
+    ],
+    "description": "Advanced smartphone with cutting-edge features and exceptional performance.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-08-05T09:35:08.674Z",
+    "tags": [
+      "phones",
+      "google",
+      "gaming",
+      "professional"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "99",
+    "name": "Xiaomi Phones 139",
+    "price": 27686,
+    "rating": 4.9,
+    "image": "/assets/images/carocel1.jpg",
+    "category": "Phones",
+    "brand": "Xiaomi",
+    "originalPrice": 31462,
+    "discount": 12,
+    "reviewCount": 100,
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "features": [
+      "Gaming",
+      "Professional"
+    ],
+    "description": "Advanced smartphone with cutting-edge features and exceptional performance.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-09-08T03:04:32.266Z",
+    "tags": [
+      "phones",
+      "xiaomi",
+      "high-quality",
+      "wireless"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  },
+  {
+    "id": "100",
+    "name": "Huawei Phones 125",
+    "price": 37373,
+    "rating": 5,
+    "image": "/assets/images/carocel2.jpg",
+    "category": "Phones",
+    "brand": "Huawei",
+    "originalPrice": 46717,
+    "discount": 20,
+    "reviewCount": 258,
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "features": [
+      "Gaming",
+      "Professional",
+      "High Resolution"
+    ],
+    "description": "Advanced smartphone with cutting-edge features and exceptional performance.",
+    "specifications": {
+      "Type": "Standard",
+      "Compatibility": "Universal"
+    },
+    "reviews": [],
+    "createdAt": "2025-02-18T19:16:10.847Z",
+    "tags": [
+      "phones",
+      "huawei",
+      "rgb",
+      "gaming",
+      "premium"
+    ],
+    "availability": "in-stock",
+    "shipping": "free"
+  }
+]
