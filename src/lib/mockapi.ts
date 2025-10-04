@@ -166,7 +166,7 @@ export const productsApi = {
     apiRequest<Product[]>(`/products?page=${page}&limit=${limit}`),
 
   // Create new product (for admin)
-  create: (product: Omit<Product, 'id'>): Promise<Product> =>
+  create: (product: Omit<Product, "id">): Promise<Product> =>
     apiRequest<Product>("/products", {
       method: "POST",
       body: JSON.stringify(product),
@@ -191,7 +191,9 @@ export const categoriesApi = {
   // Get all categories
   getAll: async (): Promise<{ id: number; name: string; slug: string }[]> => {
     try {
-      return await apiRequest<{ id: number; name: string; slug: string }[]>("/categories");
+      return await apiRequest<{ id: number; name: string; slug: string }[]>(
+        "/categories"
+      );
     } catch {
       // Fallback: extract categories from products
       const products = await productsApi.getAll();
@@ -205,22 +207,34 @@ export const categoriesApi = {
   },
 
   // Get category by ID
-  getById: (id: string | number): Promise<{ id: number; name: string; slug: string }> =>
+  getById: (
+    id: string | number
+  ): Promise<{ id: number; name: string; slug: string }> =>
     apiRequest<{ id: number; name: string; slug: string }>(`/categories/${id}`),
 
   // Create new category (for admin)
-  create: (category: { name: string; description?: string; image?: string }): Promise<{ id: number; name: string; slug: string }> =>
+  create: (category: {
+    name: string;
+    description?: string;
+    image?: string;
+  }): Promise<{ id: number; name: string; slug: string }> =>
     apiRequest<{ id: number; name: string; slug: string }>("/categories", {
       method: "POST",
       body: JSON.stringify(category),
     }),
 
   // Update category (for admin)
-  update: (id: string | number, category: { name: string; description?: string; image?: string }): Promise<{ id: number; name: string; slug: string }> =>
-    apiRequest<{ id: number; name: string; slug: string }>(`/categories/${id}`, {
-      method: "PUT",
-      body: JSON.stringify(category),
-    }),
+  update: (
+    id: string | number,
+    category: { name: string; description?: string; image?: string }
+  ): Promise<{ id: number; name: string; slug: string }> =>
+    apiRequest<{ id: number; name: string; slug: string }>(
+      `/categories/${id}`,
+      {
+        method: "PUT",
+        body: JSON.stringify(category),
+      }
+    ),
 
   // Delete category (for admin)
   delete: (id: string | number): Promise<void> =>
@@ -240,14 +254,17 @@ export const reviewsApi = {
     apiRequest<ProductReview>(`/reviews/${id}`),
 
   // Create new review
-  create: (review: Omit<ProductReview, 'id'>): Promise<ProductReview> =>
+  create: (review: Omit<ProductReview, "id">): Promise<ProductReview> =>
     apiRequest<ProductReview>("/reviews", {
       method: "POST",
       body: JSON.stringify(review),
     }),
 
   // Update review
-  update: (id: string | number, review: Partial<ProductReview>): Promise<ProductReview> =>
+  update: (
+    id: string | number,
+    review: Partial<ProductReview>
+  ): Promise<ProductReview> =>
     apiRequest<ProductReview>(`/reviews/${id}`, {
       method: "PUT",
       body: JSON.stringify(review),

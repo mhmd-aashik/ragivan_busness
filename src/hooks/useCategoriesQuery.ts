@@ -26,7 +26,11 @@ export function useCreateCategory() {
   const queryClient = useQueryClient();
 
   return useMutation({
-    mutationFn: (category: { name: string; description?: string; image?: string }) => categoriesApi.create(category),
+    mutationFn: (category: {
+      name: string;
+      description?: string;
+      image?: string;
+    }) => categoriesApi.create(category),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: queryKeys.categories.all });
     },
@@ -38,8 +42,13 @@ export function useUpdateCategory() {
   const queryClient = useQueryClient();
 
   return useMutation({
-    mutationFn: ({ id, category }: { id: string | number; category: { name: string; description?: string; image?: string } }) =>
-      categoriesApi.update(id, category),
+    mutationFn: ({
+      id,
+      category,
+    }: {
+      id: string | number;
+      category: { name: string; description?: string; image?: string };
+    }) => categoriesApi.update(id, category),
     onSuccess: (data, variables) => {
       queryClient.setQueryData(queryKeys.categories.detail(variables.id), data);
       queryClient.invalidateQueries({ queryKey: queryKeys.categories.all });

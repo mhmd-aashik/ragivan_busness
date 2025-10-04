@@ -28,9 +28,14 @@ export function useCreateReview() {
   const queryClient = useQueryClient();
 
   return useMutation({
-    mutationFn: (review: { productId: string | number; rating: number; comment: string; userId?: string | number }) => {
-      const reviewData: Omit<ProductReview, 'id'> = {
-        user: `User ${review.userId || 'Anonymous'}`,
+    mutationFn: (review: {
+      productId: string | number;
+      rating: number;
+      comment: string;
+      userId?: string | number;
+    }) => {
+      const reviewData: Omit<ProductReview, "id"> = {
+        user: `User ${review.userId || "Anonymous"}`,
         rating: review.rating,
         comment: review.comment,
         date: new Date().toISOString(),
@@ -40,8 +45,8 @@ export function useCreateReview() {
     },
     onSuccess: (data, variables) => {
       // Invalidate reviews for the specific product
-      queryClient.invalidateQueries({ 
-        queryKey: queryKeys.reviews.list(variables.productId) 
+      queryClient.invalidateQueries({
+        queryKey: queryKeys.reviews.list(variables.productId),
       });
       // Invalidate all reviews
       queryClient.invalidateQueries({ queryKey: queryKeys.reviews.all });
@@ -54,7 +59,13 @@ export function useUpdateReview() {
   const queryClient = useQueryClient();
 
   return useMutation({
-    mutationFn: ({ id, review }: { id: string | number; review: { rating: number; comment: string; userId?: string | number } }) => {
+    mutationFn: ({
+      id,
+      review,
+    }: {
+      id: string | number;
+      review: { rating: number; comment: string; userId?: string | number };
+    }) => {
       const reviewData: Partial<ProductReview> = {
         rating: review.rating,
         comment: review.comment,
