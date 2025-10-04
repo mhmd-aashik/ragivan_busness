@@ -17,9 +17,16 @@ export function Providers({ children }: { children: React.ReactNode }) {
             // Time in milliseconds that unused/inactive cache data remains in memory
             gcTime: 10 * 60 * 1000, // 10 minutes
             // Retry failed requests
-            retry: (failureCount, error: any) => {
+            retry: (failureCount, error: unknown) => {
               // Don't retry for 4xx errors (client errors)
-              if (error?.status >= 400 && error?.status < 500) {
+              if (
+                error &&
+                typeof error === "object" &&
+                "status" in error &&
+                typeof (error as { status: unknown }).status === "number" &&
+                (error as { status: number }).status >= 400 &&
+                (error as { status: number }).status < 500
+              ) {
                 return false;
               }
               // Retry up to 3 times for other errors

@@ -1,13 +1,12 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import {
   useProductCategories,
   useProductBrands,
-  useProductFeatures,
 } from "@/hooks/useProductsQuery";
-import { ProductFilters } from "@/hooks/useProductsQuery";
+import type { ProductFilters } from "@/hooks/useProductsQuery";
 
 interface ProductFiltersProps {
   onFiltersChange?: (filters: ProductFilters) => void;
@@ -23,8 +22,7 @@ export default function ProductFilters({
   const { data: categories = [], isLoading: categoriesLoading } =
     useProductCategories();
   const { data: brands = [], isLoading: brandsLoading } = useProductBrands();
-  const { data: features = [], isLoading: featuresLoading } =
-    useProductFeatures();
+  // const { data: features = [] } = useProductFeatures(); // Unused for now
 
   // Local filter state
   const [filters, setFilters] = useState<ProductFilters>({
@@ -40,14 +38,27 @@ export default function ProductFilters({
     minRating: searchParams.get("minRating")
       ? parseFloat(searchParams.get("minRating")!)
       : undefined,
-    availability: (searchParams.get("availability") as any) || "all",
-    shipping: (searchParams.get("shipping") as any) || "all",
+    availability:
+      (searchParams.get("availability") as
+        | "all"
+        | "in-stock"
+        | "out-of-stock") || "all",
+    shipping:
+      (searchParams.get("shipping") as "all" | "free" | "paid") || "all",
     features: searchParams.get("features")?.split(",") || [],
     tags: searchParams.get("tags")?.split(",") || [],
     isNew: searchParams.get("isNew") === "true",
     isBestSeller: searchParams.get("isBestSeller") === "true",
     featured: searchParams.get("featured") === "true",
-    sortBy: (searchParams.get("sortBy") as any) || "popularity",
+    sortBy:
+      (searchParams.get("sortBy") as
+        | "popularity"
+        | "price-asc"
+        | "price-desc"
+        | "rating-desc"
+        | "newest"
+        | "name-asc"
+        | "name-desc") || "popularity",
   });
 
   // Update URL when filters change

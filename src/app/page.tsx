@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import Header from "@/components/Header";
 import Navigation from "@/components/Navigation";
 import HeroCarousel from "@/components/HeroCarousel";
@@ -18,7 +19,14 @@ export default function Home() {
       <ProductGrid />
       <VideoSection />
       <BannerSection />
-      <FeaturedProducts />
+      <Suspense fallback={
+        <div className="py-24 text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-purple-400 mx-auto mb-4"></div>
+          <p className="text-white">Loading featured products...</p>
+        </div>
+      }>
+        <FeaturedProducts />
+      </Suspense>
       <CustomerFeedback />
       <FeaturesSection />
       <Footer />

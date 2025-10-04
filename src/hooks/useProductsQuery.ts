@@ -28,6 +28,7 @@ export interface ProductFilters {
     | "name-desc";
   page?: number;
   limit?: number;
+  [key: string]: unknown;
 }
 
 // Hook to get all products with optional filters
@@ -304,10 +305,11 @@ function applyFilters(products: Product[], filters: ProductFilters): Product[] {
         filtered.sort((a, b) => b.rating - a.rating);
         break;
       case "newest":
-        filtered.sort(
-          (a, b) =>
-            new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
-        );
+        filtered.sort((a, b) => {
+          const dateA = a.createdAt ? new Date(a.createdAt).getTime() : 0;
+          const dateB = b.createdAt ? new Date(b.createdAt).getTime() : 0;
+          return dateB - dateA;
+        });
         break;
       case "popularity":
         filtered.sort((a, b) => b.reviewCount - a.reviewCount);

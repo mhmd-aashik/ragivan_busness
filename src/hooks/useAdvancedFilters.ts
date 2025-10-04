@@ -104,7 +104,7 @@ export function useAdvancedFilters() {
     
     // Sorting
     if (searchParams.get('sortBy')) {
-      filters.sortBy = searchParams.get('sortBy') as any;
+      filters.sortBy = searchParams.get('sortBy') as 'price-asc' | 'price-desc' | 'rating-desc' | 'newest' | 'popularity' | 'name-asc' | 'name-desc';
     }
     
     // Pagination
@@ -211,7 +211,11 @@ export function useAdvancedFilters() {
           filtered.sort((a, b) => b.rating - a.rating);
           break;
         case 'newest':
-          filtered.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
+          filtered.sort((a, b) => {
+            const dateA = a.createdAt ? new Date(a.createdAt).getTime() : 0;
+            const dateB = b.createdAt ? new Date(b.createdAt).getTime() : 0;
+            return dateB - dateA;
+          });
           break;
         case 'popularity':
           filtered.sort((a, b) => b.reviewCount - a.reviewCount);
@@ -328,7 +332,7 @@ export function useFilterOptions() {
         setCategories(uniqueCategories);
         
         // Extract unique brands
-        const uniqueBrands = [...new Set(products.map(p => p.brand).filter(Boolean))];
+        const uniqueBrands = [...new Set(products.map(p => p.brand).filter(Boolean))] as string[];
         setBrands(uniqueBrands);
         
         // Extract unique features

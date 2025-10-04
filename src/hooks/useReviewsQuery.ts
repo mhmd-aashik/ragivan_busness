@@ -1,6 +1,7 @@
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { reviewsApi } from "@/lib/mockapi";
 import { queryKeys } from "@/lib/query-client";
+import { ProductReview } from "@/types/product";
 
 // Hook to get reviews for a product
 export function useProductReviews(productId: string | number) {
@@ -27,14 +28,21 @@ export function useCreateReview() {
   const queryClient = useQueryClient();
 
   return useMutation({
-    mutationFn: (review: any) => reviewsApi.create(review),
-    onSuccess: (data) => {
+    mutationFn: (review: { productId: string | number; rating: number; comment: string; userId?: string | number }) => {
+      const reviewData: Omit<ProductReview, 'id'> = {
+        user: `User ${review.userId || 'Anonymous'}`,
+        rating: review.rating,
+        comment: review.comment,
+        date: new Date().toISOString(),
+        verified: false,
+      };
+      return reviewsApi.create(reviewData);
+    },
+    onSuccess: (data, variables) => {
       // Invalidate reviews for the specific product
-      if (data.productId) {
-        queryClient.invalidateQueries({ 
-          queryKey: queryKeys.reviews.list(data.productId) 
-        });
-      }
+      queryClient.invalidateQueries({ 
+        queryKey: queryKeys.reviews.list(variables.productId) 
+      });
       // Invalidate all reviews
       queryClient.invalidateQueries({ queryKey: queryKeys.reviews.all });
     },
@@ -46,16 +54,17 @@ export function useUpdateReview() {
   const queryClient = useQueryClient();
 
   return useMutation({
-    mutationFn: ({ id, review }: { id: string | number; review: any }) =>
-      reviewsApi.update(id, review),
+    mutationFn: ({ id, review }: { id: string | number; review: { rating: number; comment: string; userId?: string | number } }) => {
+      const reviewData: Partial<ProductReview> = {
+        rating: review.rating,
+        comment: review.comment,
+        user: review.userId ? `User ${review.userId}` : undefined,
+      };
+      return reviewsApi.update(id, reviewData);
+    },
     onSuccess: (data, variables) => {
       queryClient.setQueryData(queryKeys.reviews.detail(variables.id), data);
-      // Invalidate reviews for the product
-      if (data.productId) {
-        queryClient.invalidateQueries({ 
-          queryKey: queryKeys.reviews.list(data.productId) 
-        });
-      }
+      // Invalidate all reviews since we don't have productId in the response
       queryClient.invalidateQueries({ queryKey: queryKeys.reviews.all });
     },
   });

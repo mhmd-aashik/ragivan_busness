@@ -21,7 +21,7 @@ export default function Footer() {
 
           {/* Let's us help */}
           <div>
-            <h3 className="text-xl font-bold mb-6">Let's us help</h3>
+            <h3 className="text-xl font-bold mb-6">Let&apos;s us help</h3>
             <div className="space-y-3">
               <a
                 href="#"

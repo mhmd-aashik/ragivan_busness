@@ -1,8 +1,9 @@
 // MockAPI configuration and utilities
+import { Product, ProductReview } from "@/types/product";
+
 const API_BASE_URL = "https://64f8b5c3824680fd81e13716.mockapi.io/api/v1";
 
 // Fallback to local data when API is not available
-const FALLBACK_DATA_URL = "/api/products";
 
 export interface ApiResponse<T> {
   data: T;
@@ -76,25 +77,25 @@ async function apiRequest<T>(
 // Products API
 export const productsApi = {
   // Get all products
-  getAll: (): Promise<any[]> => apiRequest<any[]>("/products"),
+  getAll: (): Promise<Product[]> => apiRequest<Product[]>("/products"),
 
   // Get product by ID
-  getById: async (id: string | number): Promise<any> => {
+  getById: async (id: string | number): Promise<Product | undefined> => {
     try {
-      return await apiRequest<any>(`/products/${id}`);
-    } catch (error) {
+      return await apiRequest<Product>(`/products/${id}`);
+    } catch {
       const products = await productsApi.getAll();
       return products.find((p) => p.id.toString() === id.toString());
     }
   },
 
   // Get products by category
-  getByCategory: async (category: string): Promise<any[]> => {
+  getByCategory: async (category: string): Promise<Product[]> => {
     try {
-      return await apiRequest<any[]>(
+      return await apiRequest<Product[]>(
         `/products?category=${encodeURIComponent(category)}`
       );
-    } catch (error) {
+    } catch {
       const products = await productsApi.getAll();
       return products.filter(
         (p) => p.category.toLowerCase() === category.toLowerCase()
@@ -103,52 +104,52 @@ export const productsApi = {
   },
 
   // Get featured products
-  getFeatured: async (): Promise<any[]> => {
+  getFeatured: async (): Promise<Product[]> => {
     try {
-      return await apiRequest<any[]>("/products?featured=true");
-    } catch (error) {
+      return await apiRequest<Product[]>("/products?featured=true");
+    } catch {
       const products = await productsApi.getAll();
       return products.filter((p) => p.featured === true);
     }
   },
 
   // Get best selling products
-  getBestSelling: async (): Promise<any[]> => {
+  getBestSelling: async (): Promise<Product[]> => {
     try {
-      return await apiRequest<any[]>("/products?isBestSeller=true");
-    } catch (error) {
+      return await apiRequest<Product[]>("/products?isBestSeller=true");
+    } catch {
       const products = await productsApi.getAll();
       return products.filter((p) => p.isBestSeller === true);
     }
   },
 
   // Get new arrivals
-  getNewArrivals: async (): Promise<any[]> => {
+  getNewArrivals: async (): Promise<Product[]> => {
     try {
-      return await apiRequest<any[]>("/products?isNew=true");
-    } catch (error) {
+      return await apiRequest<Product[]>("/products?isNew=true");
+    } catch {
       const products = await productsApi.getAll();
       return products.filter((p) => p.isNew === true);
     }
   },
 
   // Get top rated products
-  getTopRated: async (): Promise<any[]> => {
+  getTopRated: async (): Promise<Product[]> => {
     try {
-      return await apiRequest<any[]>("/products?rating_gte=4.8");
-    } catch (error) {
+      return await apiRequest<Product[]>("/products?rating_gte=4.8");
+    } catch {
       const products = await productsApi.getAll();
       return products.filter((p) => p.rating >= 4.8);
     }
   },
 
   // Search products
-  search: async (query: string): Promise<any[]> => {
+  search: async (query: string): Promise<Product[]> => {
     try {
-      return await apiRequest<any[]>(
+      return await apiRequest<Product[]>(
         `/products?search=${encodeURIComponent(query)}`
       );
-    } catch (error) {
+    } catch {
       const products = await productsApi.getAll();
       const searchTerm = query.toLowerCase();
       return products.filter(
@@ -161,19 +162,19 @@ export const productsApi = {
   },
 
   // Get products with pagination
-  getPaginated: (page: number = 1, limit: number = 10): Promise<any[]> =>
-    apiRequest<any[]>(`/products?page=${page}&limit=${limit}`),
+  getPaginated: (page: number = 1, limit: number = 10): Promise<Product[]> =>
+    apiRequest<Product[]>(`/products?page=${page}&limit=${limit}`),
 
   // Create new product (for admin)
-  create: (product: any): Promise<any> =>
-    apiRequest<any>("/products", {
+  create: (product: Omit<Product, 'id'>): Promise<Product> =>
+    apiRequest<Product>("/products", {
       method: "POST",
       body: JSON.stringify(product),
     }),
 
   // Update product (for admin)
-  update: (id: string | number, product: any): Promise<any> =>
-    apiRequest<any>(`/products/${id}`, {
+  update: (id: string | number, product: Partial<Product>): Promise<Product> =>
+    apiRequest<Product>(`/products/${id}`, {
       method: "PUT",
       body: JSON.stringify(product),
     }),
@@ -188,10 +189,10 @@ export const productsApi = {
 // Categories API
 export const categoriesApi = {
   // Get all categories
-  getAll: async (): Promise<any[]> => {
+  getAll: async (): Promise<{ id: number; name: string; slug: string }[]> => {
     try {
-      return await apiRequest<any[]>("/categories");
-    } catch (error) {
+      return await apiRequest<{ id: number; name: string; slug: string }[]>("/categories");
+    } catch {
       // Fallback: extract categories from products
       const products = await productsApi.getAll();
       const categories = [...new Set(products.map((p) => p.category))];
@@ -204,26 +205,50 @@ export const categoriesApi = {
   },
 
   // Get category by ID
-  getById: (id: string | number): Promise<any> =>
-    apiRequest<any>(`/categories/${id}`),
+  getById: (id: string | number): Promise<{ id: number; name: string; slug: string }> =>
+    apiRequest<{ id: number; name: string; slug: string }>(`/categories/${id}`),
+
+  // Create new category (for admin)
+  create: (category: { name: string; description?: string; image?: string }): Promise<{ id: number; name: string; slug: string }> =>
+    apiRequest<{ id: number; name: string; slug: string }>("/categories", {
+      method: "POST",
+      body: JSON.stringify(category),
+    }),
+
+  // Update category (for admin)
+  update: (id: string | number, category: { name: string; description?: string; image?: string }): Promise<{ id: number; name: string; slug: string }> =>
+    apiRequest<{ id: number; name: string; slug: string }>(`/categories/${id}`, {
+      method: "PUT",
+      body: JSON.stringify(category),
+    }),
+
+  // Delete category (for admin)
+  delete: (id: string | number): Promise<void> =>
+    apiRequest<void>(`/categories/${id}`, {
+      method: "DELETE",
+    }),
 };
 
 // Reviews API
 export const reviewsApi = {
   // Get reviews for a product
-  getByProduct: (productId: string | number): Promise<any[]> =>
-    apiRequest<any[]>(`/reviews?productId=${productId}`),
+  getByProduct: (productId: string | number): Promise<ProductReview[]> =>
+    apiRequest<ProductReview[]>(`/reviews?productId=${productId}`),
+
+  // Get review by ID
+  getById: (id: string | number): Promise<ProductReview> =>
+    apiRequest<ProductReview>(`/reviews/${id}`),
 
   // Create new review
-  create: (review: any): Promise<any> =>
-    apiRequest<any>("/reviews", {
+  create: (review: Omit<ProductReview, 'id'>): Promise<ProductReview> =>
+    apiRequest<ProductReview>("/reviews", {
       method: "POST",
       body: JSON.stringify(review),
     }),
 
   // Update review
-  update: (id: string | number, review: any): Promise<any> =>
-    apiRequest<any>(`/reviews/${id}`, {
+  update: (id: string | number, review: Partial<ProductReview>): Promise<ProductReview> =>
+    apiRequest<ProductReview>(`/reviews/${id}`, {
       method: "PUT",
       body: JSON.stringify(review),
     }),
@@ -235,8 +260,10 @@ export const reviewsApi = {
     }),
 };
 
-export default {
+const mockApi = {
   products: productsApi,
   categories: categoriesApi,
   reviews: reviewsApi,
 };
+
+export default mockApi;

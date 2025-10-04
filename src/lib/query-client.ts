@@ -9,9 +9,11 @@ export const queryClient = new QueryClient({
       // Time in milliseconds that unused/inactive cache data remains in memory
       gcTime: 10 * 60 * 1000, // 10 minutes (formerly cacheTime)
       // Retry failed requests
-      retry: (failureCount, error: any) => {
+      retry: (failureCount, error: unknown) => {
         // Don't retry for 4xx errors (client errors)
-        if (error?.status >= 400 && error?.status < 500) {
+        if (error && typeof error === 'object' && 'status' in error && 
+            typeof (error as { status: unknown }).status === 'number' && 
+            (error as { status: number }).status >= 400 && (error as { status: number }).status < 500) {
           return false;
         }
         // Retry up to 3 times for other errors
@@ -37,7 +39,7 @@ export const queryKeys = {
   products: {
     all: ['products'] as const,
     lists: () => [...queryKeys.products.all, 'list'] as const,
-    list: (filters: Record<string, any>) => [...queryKeys.products.lists(), filters] as const,
+    list: (filters: Record<string, unknown>) => [...queryKeys.products.lists(), filters] as const,
     details: () => [...queryKeys.products.all, 'detail'] as const,
     detail: (id: string | number) => [...queryKeys.products.details(), id] as const,
     categories: () => [...queryKeys.products.all, 'categories'] as const,
